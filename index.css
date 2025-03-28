@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5em;
+    color: #00eaff; /* Cian brillante */
+    text-shadow: 0px 0px 10px #00eaff;
+}
+
+/* Contenedor de los botones */
+.buttons {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Botones de capítulos */
+button {
+    background-color: #00eaff; /* Cian */
+    color: #121212; /* Negro */
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 220px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 234, 255, 0.5);
+}
+
+button:hover {
+    background-color: #007e99; /* Azul más oscuro */
+    box-shadow: 0px 4px 15px rgba(0, 234, 255, 0.8);
+}
+
+/* Contenedor de información */
+#content {
+    background-color: #1e1e1e; /* Gris oscuro */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid #00eaff;
+    box-shadow: 0px 0px 15px rgba(0, 234, 255, 0.5);
+}
+
+/* Estilos para cada ítem */
+.item {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #222222;
+    border-radius: 8px;
+    border-left: 4px solid #00eaff;
+    transition: 0.3s;
+}
+
+.item:hover {
+    background-color: #333333;
+    transform: scale(1.02);
+}
+
+/* Títulos de los ítems */
+.item h3 {
+    color: #ffcc00; /* Amarillo dorado */
+    text-shadow: 0px 0px 8px #ffcc00;
+}
+
+/* Descripción */
+.item p {
+    color: #cccccc;
+    font-size: 1.1em;
+}
+
+/* Imágenes */
+.item img {
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid #00eaff;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 234, 255, 0.5);
+}
